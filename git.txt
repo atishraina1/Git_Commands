@@ -1,0 +1,47 @@
+$git --version							//Check the version of git
+
+$git config --global user.name ""		//Config the user name
+
+$git config --global user.email ""		//Config the email
+
+$git config --list						//List of git options
+
+$git config user.mail					//Check the user email
+
+$git help								//List of various git commands
+
+$git help command_name					//The role of a particular command
+
+$git init								//Initialise git
+
+$git add .								//Add changes to the folder
+
+$git commit -m "First Commit"			//Commit
+
+$git log								//Check the commit log
+
+$git log --author="Name"				//Commits by by a particular author
+
+$git status								//Status of files not committed
+
+$git diff								//File difference between the workspace and repository
+
+$git diff --staged						//File difference between the workspace and stage area
+
+$git rm filename						//Delete a file
+
+$git mv filename Folder/filename		//Move the file
+
+$git checkout -- filename				//Undo the changes before adding
+
+$git reset HEAD filename				//Unstage the files from the stage area
+
+$git checkout commit no -- filename		//Retrieve the particular version of the file 
+
+$git remote add name url				//Synchronise the github URL
+
+$git remote								//Check the Name used instead of URL
+
+$git push -u name master				//Push the repository to github
+
+$git remote rm name						//Remove the name for the URL
