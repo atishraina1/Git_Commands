@@ -18,6 +18,8 @@ $git add .								//Add changes to the folder
 
 $git commit -m "First Commit"			//Commit
 
+$git commit -am "First Commit"			//Commit without adding
+
 $git log								//Check the commit log
 
 $git log --author="Name"				//Commits by by a particular author
